@@ -1,0 +1,7 @@
+pyTelegramBotAPI
+telebot
+python-telegram-bot
+random2
+sqlite
+requests 
+json-api
