@@ -167,7 +167,7 @@ def bot():
 
             for i in range(len(req['data'])):
 
-                if (result is not None) and (int(req['data'][i]['comment']) == result[3]):
+                if (result is not None) and (req['data'][i]['comment'] == str(result[3])):
 
                     if req['data'][i]['sum']['amount'] >= result[2]:
                         bot.send_message(settings.IdAdmin, 'Бабки пришли!!! Школяр заплатил {} руб'.format(result[2]))
